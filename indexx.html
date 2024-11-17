@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Food Delivery</h1>
+    </header>
+
+    <main>
+        <section class="restaurant-section">
+            <h2>Available Restaurants</h2>
+            <div id="restaurant-list">
+                <!-- Restaurants will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section class="cart-section">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <p>No items in the cart.</p>
+            </div>
+            <div class="cart-summary">
+                <p>Total: $<span id="cart-total">0.00</span></p>
+                <button id="checkout-button" disabled>Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Online Food Delivery</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
